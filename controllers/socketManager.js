@@ -8,7 +8,7 @@ let timeOnline = {}
 export const connectToSocket = (server) => {
     const io=new Server(server, {
         cors:{
-            origin: "https://connectify-fs.onrender.com/",
+            origin: ["https://connectify-fs.onrender.com", "http://localhost:3000"],
             methods: ["GET", "POST"],
             allowedHeaders: ["*"],
             credentials: true
