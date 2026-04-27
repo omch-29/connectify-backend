@@ -97,4 +97,4 @@ io.on("connection", (socket) =>{
 
 
 
-// socket
+// socket controller
